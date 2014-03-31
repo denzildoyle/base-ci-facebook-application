@@ -1,0 +1,214 @@
+html{
+    height: 1000px;
+    overflow: hidden;
+}
+
+li{
+    list-style: decimal;
+}
+body{
+    padding-bottom:70px; 
+}
+footer{
+    position: absolute;
+    bottom: 20px;
+    width:100%;
+    height:70px;
+    color: #000;
+    font-size: 16px;
+    font-family:"Open Sans", Arial, Helvetia;
+    background-color: #FFF;
+}
+
+footer a{
+    color: #000;
+    display: inline;
+    font-size: 14px;
+    font-family:"Open Sans", Arial, Helvetia;
+}
+
+footer a:hover{
+    color: #519026;
+    text-decoration: none;
+}
+
+.footer-img{
+    position: absolute;
+    bottom: 0;
+}
+
+.links{
+    width: 710px;
+    padding: 25px 0 0 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+
+.bulb{
+    width: 80px;
+    padding: 10px 0 0 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    color: #E15129;
+    cursor: pointer;
+}
+
+.qrcode{
+    position: absolute;
+    top: 630px;
+    left: 55px;
+    width: 200px;
+}
+
+.email{ 
+    position: absolute;
+    top: 780px;
+    left: 450px;
+
+    color: #fff;
+    margin: 20px 0 0 50px;
+    padding: 15px 50px 15px 50px; 
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px; /* future proofing */
+    -khtml-border-radius: 8px; /* for old Konqueror browsers */
+    background-color: #861E86;
+    border-bottom: 5px solid #450F45;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.email:hover{
+    background-color: #691869;
+    padding: 15px 50px 17px 50px; 
+    border-bottom: 3px solid #390D39;
+    text-decoration: none;
+    color: #fff;
+}
+
+.go{ 
+    width: 100%;
+    color: #fff;
+    border: none;
+    margin-top:20px;
+    padding: 15px 50px 15px 50px; 
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px; /* future proofing */
+    -khtml-border-radius: 8px; /* for old Konqueror browsers */
+    background-color: #861E86;
+    border-bottom: 5px solid #450F45;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.gobtn{ 
+    color: #fff;
+    padding: 15px 50px 15px 50px; 
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px; /* future proofing */
+    -khtml-border-radius: 8px; /* for old Konqueror browsers */
+    background-color: #861E86;
+    border-bottom: 5px solid #450F45;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.gobtn:hover{ 
+    background-color: #691869;
+    padding: 15px 50px 17px 50px; 
+    border-bottom: 3px solid #390D39;
+    text-decoration: none;
+    color: #fff;
+}
+
+.rules{
+    background-color: rgba(255, 255, 255, .9);
+    padding: 380px 30px 200px 30px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+    /*box-shadow: 3px 3px 5px #dddddd;*/
+}
+
+.rules ul{
+    margin-bottom: 40px;
+}
+
+.about{
+    z-index: -2;
+    width: 810px;
+    height: 1000px;
+}
+
+.rules-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.about-container{
+    background-color: rgba(255, 255, 255, .9);
+    padding: 380px 30px 50px 30px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+    /*box-shadow: 3px 3px 5px #dddddd;*/
+}
+
+.terms-container{
+    background-color: rgba(255, 255, 255, .9);
+    padding: 380px 30px 130px 30px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+    /*box-shadow: 3px 3px 5px #dddddd;*/
+}
+
+.sucess-container{
+    background-color: rgba(255, 255, 255, .9);
+    padding: 380px 30px 350px 30px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+    /*box-shadow: 3px 3px 5px #dddddd;*/
+}
+
+.sucess-container h1{
+    color: #9E005D;
+    font-size: 50px;
+}
+
+.sucess-container h5{
+    margin-bottom: 40px;
+}
+
+.backbtn{ 
+    color: #fff;
+    padding: 15px 50px 15px 50px; 
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px; /* future proofing */
+    -khtml-border-radius: 8px; /* for old Konqueror browsers */
+    background-color: #861E86;
+    border-bottom: 5px solid #450F45;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.backbtn:hover{ 
+    background-color: #691869;
+    padding: 15px 50px 17px 50px; 
+    border-bottom: 3px solid #390D39;
+    text-decoration: none;
+    color: #fff;
+}
